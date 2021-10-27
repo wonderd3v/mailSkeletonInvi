@@ -1,0 +1,89 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(233, 3%, 53%);
+    --grayishBlueDarker: hsl(218, 4%, 42%);
+    --veryLightGray: hsl(0, 18%, 97%);
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    
+}
+
+.red {
+    border-top: 3px solid var(--red);
+    max-height: max-content;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5px;
+    box-shadow: 10px 15px 30px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px; 
+    background-color: var(--veryLightGray);
+}
+
+.logoContainer{
+   display: flex;
+}
+
+.logoContainer img{
+    width: 75%; 
+}
+
+.mailBody{
+    margin: auto;
+    margin-top: 5%;
+}
+.mailBody h2{
+    margin-bottom: 5%;
+}
+
+.mailFooter{
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.mailFooter p{
+    margin: 1.5% 5%;
+    margin-bottom: -1.5%;
+    font-size: smaller;
+}
+
+
+.btn-blue {
+    margin: auto;
+    color: white;
+    background-color: #3A79BF;
+    border: solid transparent;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    padding: 7px 24px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+h2{
+    color: var(--grayishBlueDarker);
+    font-weight: bold;
+}
+
+p {
+    color: var(--grayishBlue);
+}
+
+
